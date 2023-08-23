@@ -25,7 +25,7 @@ public class JPAUnitTest {
 
     @Test
     public void should_return_empty_list_if_repository_is_empty() {
-        Iterable players = playerRepository.findAll();
+        Iterable<Player> players = playerRepository.findAll();
         assertThat(players).isEmpty();
     }
 

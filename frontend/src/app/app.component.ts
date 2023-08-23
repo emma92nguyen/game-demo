@@ -1,7 +1,7 @@
 import {ChangeDetectorRef, Component, Inject} from '@angular/core';
 import {MediaMatcher} from "@angular/cdk/layout";
 import {MatDialog} from "@angular/material/dialog";
-import {NavigationEnd, Router, RouterState} from "@angular/router";
+import {NavigationEnd, Router} from "@angular/router";
 import {DOCUMENT} from "@angular/common";
 
 @Component({

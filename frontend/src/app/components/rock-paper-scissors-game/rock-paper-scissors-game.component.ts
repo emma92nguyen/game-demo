@@ -41,7 +41,6 @@ export class RockPaperScissorsGameComponent {
   toggleChanges(event: any) {
     if (event) {
       this.rankingMode = event.checked;
-      console.log(this.rankingMode);
     }
   }
 
@@ -52,7 +51,6 @@ export class RockPaperScissorsGameComponent {
   }
 
   playerPickHand(event: any) {
-    console.log(event);
     if (event && event.index !== null) {
       this.loading = true;
       this.currentHandTabIndex = event.index;
@@ -84,9 +82,6 @@ export class RockPaperScissorsGameComponent {
   }
 
   checkResult () {
-    console.log(this.matchResult);
-    console.log(this.currentHandTabIndex+''+this.currentHouseHandIndex);
-
     if (this.currentHandTabIndex === this.currentHouseHandIndex) {
       this.matchResult = 0;
     } else {
@@ -127,7 +122,6 @@ export class RockPaperScissorsGameComponent {
 
     dialogRef.afterClosed().subscribe(playerName => {
       console.log('The dialog was closed');
-      console.log(playerName);
       if (playerName) {
         this.savePlayer(playerName);
       }

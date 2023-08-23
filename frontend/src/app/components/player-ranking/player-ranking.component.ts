@@ -24,7 +24,6 @@ export class PlayerRankingComponent implements OnInit{
             ...res[i]
           };
         }
-        console.log(players);
         this.dataSource = players;
       },
       error: err => console.log(err)
