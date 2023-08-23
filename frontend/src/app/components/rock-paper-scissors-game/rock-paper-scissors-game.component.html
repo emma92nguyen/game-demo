@@ -1,0 +1,71 @@
+<mat-grid-list cols="9" rowHeight="3:1">
+  <mat-grid-tile colspan="3" rowspan="1"><h2 class="models">Rock Paper Scissors Game</h2>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="6" rowspan="1"></mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1"></mat-grid-tile>
+  <mat-grid-tile colspan="2" rowspan="1">
+    <mat-slide-toggle (change)="toggleChanges($event)">Ranking mode</mat-slide-toggle>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="3" rowspan="1">
+    <span>Choose a hand: </span>
+    <mat-tab-group selectedIndex="{{currentHandTabIndex}}" (selectedTabChange)="playerPickHand($event)">
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img src="{{paperImg}}" alt="paper" style="max-width: 40px;">
+          <span class="custom-label" (click)="tabOnClick(0)"></span>
+        </ng-template>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img src="{{rockImg}}" alt="paper" style="max-width: 40px;">
+          <span class="custom-label" (click)="tabOnClick(1)"></span>
+        </ng-template>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img src="{{scissorsImg}}" alt="paper" style="max-width: 40px;">
+          <span class="custom-label" (click)="tabOnClick(2)"></span>
+        </ng-template>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="3" rowspan="1">
+    <button *ngIf="currentHouseHand && currentHouseHand" (click)="resetScores()" mat-raised-button  color="primary"> Reset score</button>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="6" rowspan="2"></mat-grid-tile>
+  <mat-grid-tile colspan="3" rowspan="2">
+    <div class="score-board" *ngIf="currentHouseHand && currentHouseHand">
+      <div class="badge" id="user-label">player</div>
+      <div class="badge" id="house-label">house</div>
+      <span id="user-score">{{playerScore}}</span>:<span id="house-score">{{houseScore}}</span>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="2" rowspan="6"></mat-grid-tile>
+  <mat-grid-tile colspan="5" rowspan="6">
+    <mat-card class="game-card" *ngIf="currentHand && currentHouseHand">
+      <mat-card-content>
+        <img mat-card-image src="{{currentHand}}" alt="playerMove" style="max-width: 300px; padding-right: 50px;">
+        <img mat-card-image src="{{currentHouseHand}}" alt="houseMove" style="max-width: 250px;">
+      </mat-card-content>
+      <mat-card-actions>
+        <h3 style="margin-left: 100px;">PLAYER</h3>
+        <h3 style="margin-left: 250px;">HOUSE</h3>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="2" rowspan="6">
+  </mat-grid-tile>
+  <mat-grid-tile colspan="2" rowspan="3"></mat-grid-tile>
+  <mat-grid-tile colspan="5" rowspan="3">
+    <ng-container *ngIf="!loading">
+      <h1 *ngIf="matchResult === 1">You win!!!</h1>
+      <h1 *ngIf="matchResult === 0">It's a tie</h1>
+      <h1 *ngIf="matchResult === -1">You lose :(</h1>
+    </ng-container>
+    <div class="flex-container flex-center" *ngIf="loading && currentHouseHand && currentHand">
+      <mat-spinner></mat-spinner>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="2" rowspan="3"></mat-grid-tile>
+</mat-grid-list>
+
