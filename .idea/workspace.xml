@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="929abed3-741d-4c5f-a688-d5853f15a938" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/player-ranking/player-ranking.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/player-ranking/player-ranking.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/player-ranking/player-ranking.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/pop-up/pop-up.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/pop-up/pop-up.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/pop-up/pop-up.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/rock-paper-scissors-game/rock-paper-scissors-game.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/rock-paper-scissors-game/rock-paper-scissors-game.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/rock-paper-scissors-game/rock-paper-scissors-game.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/models/player.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/services/player.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/hands/paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/hands/rock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/hands/scissors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/main/java/demo/rockpaperscissorsgame/RockPaperScissorsGameApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/main/java/demo/rockpaperscissorsgame/controllers/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/main/java/demo/rockpaperscissorsgame/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/main/java/demo/rockpaperscissorsgame/repositories/PlayerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/main/java/demo/rockpaperscissorsgame/services/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/test/java/demo/rockpaperscissorsgame/JPAUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/test/java/demo/rockpaperscissorsgame/PlayerControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/test/java/demo/rockpaperscissorsgame/RockPaperScissorsGameApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2UGOHUybxbSq5xJbIIqfPsoi5UK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Development/rock-paper-scissors-game/frontend/src/app/components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d94a59e58a1e574d2637ee55b875606e&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Development\\rock-paper-scissors-game\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\rock-paper-scissors-game\frontend\src\app\components" />
+      <recent name="D:\Development\rock-paper-scissors-game\frontend\src\assets\hands" />
+      <recent name="D:\Development\rock-paper-scissors-game" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\rock-paper-scissors-game\frontend\src\assets\hands" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PlayerIntegrationTest.createAPlayer">
+    <configuration name="JPAUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rock-paper-scissors-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.rockpaperscissorsgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
+      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.JPAUnitTest" />
+      <option name="METHOD_NAME" value="should_return_empty_list_if_repository_is_empty" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JPAUnitTest.should_return_top_10_players_in_descending_order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rock-paper-scissors-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.rockpaperscissorsgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
+      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.JPAUnitTest" />
+      <option name="METHOD_NAME" value="should_return_top_10_players_in_descending_order" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rock-paper-scissors-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.rockpaperscissorsgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
+      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.PlayerControllerTests" />
+      <option name="METHOD_NAME" value="shouldCreatePlayer" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerControllerTests.shouldReturnListOfTop10PlayersInDescendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rock-paper-scissors-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.rockpaperscissorsgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
+      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.PlayerControllerTests" />
+      <option name="METHOD_NAME" value="shouldReturnListOfTop10PlayersInDescendingOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerIntegrationTest.createAPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rock-paper-scissors-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.rockpaperscissorsgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
+      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.PlayerIntegrationTest" />
+      <option name="METHOD_NAME" value="createAPlayer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RockPaperScissorsGameApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rock-paper-scissors-game" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.rockpaperscissorsgame.RockPaperScissorsGameApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayerIntegrationTest.createAPlayer" />
+        <item itemvalue="JUnit.PlayerControllerTests" />
+        <item itemvalue="JUnit.JPAUnitTest" />
+        <item itemvalue="JUnit.JPAUnitTest.should_return_top_10_players_in_descending_order" />
+        <item itemvalue="JUnit.PlayerControllerTests.shouldReturnListOfTop10PlayersInDescendingOrder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="929abed3-741d-4c5f-a688-d5853f15a938" name="Changes" comment="" />
+      <created>1692562364949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692562364949</updated>
+      <workItem from="1692562366069" duration="12494000" />
+      <workItem from="1692628713786" duration="142000" />
+      <workItem from="1692645429350" duration="14857000" />
+      <workItem from="1692736736396" duration="17979000" />
+      <workItem from="1692785717405" duration="629000" />
+      <workItem from="1692786931393" duration="16940000" />
+      <workItem from="1692822894966" duration="1978000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/app/app.module.ts</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rock-paper-scissors-game/src/test/java/demo/rockpaperscissorsgame/PlayerControllerTests.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
