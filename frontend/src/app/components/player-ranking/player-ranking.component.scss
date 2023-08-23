@@ -1,0 +1,27 @@
+.ranking-table {
+  width: 100%;
+}
+
+.mat-column-ranking {
+  width: 16px;
+  border-right: 1px solid currentColor;
+  padding: 0;
+  text-align: center;
+}
+
+.mat-column-name {
+  width: 150px;
+  padding-left: 16px;
+  text-align: center;
+}
+
+.mat-column-numberOfWins {
+  width: 50px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-createdTime {
+  width: 50px;
+  text-align: center;
+}
