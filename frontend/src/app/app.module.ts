@@ -24,13 +24,15 @@ import {MatInputModule} from "@angular/material/input";
 import {FormsModule} from "@angular/forms";
 import {MatSnackBarModule} from "@angular/material/snack-bar";
 import {HttpClientModule} from "@angular/common/http";
+import { GameRulesComponent } from './components/game-rules/game-rules.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RockPaperScissorsGameComponent,
     PlayerRankingComponent,
-    PopUpComponent
+    PopUpComponent,
+    GameRulesComponent
   ],
   imports: [
     BrowserModule,

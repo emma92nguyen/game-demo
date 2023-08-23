@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="929abed3-741d-4c5f-a688-d5853f15a938" name="Changes" comment="add google analytics for website metrics">
+    <list default="true" id="929abed3-741d-4c5f-a688-d5853f15a938" name="Changes" comment="refactoring">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/game-rules/game-rules.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/game-rules/game-rules.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/game-rules/game-rules.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rock-paper-scissors-game/src/main/java/demo/rockpaperscissorsgame/controllers/PlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/main/java/demo/rockpaperscissorsgame/controllers/PlayerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rock-paper-scissors-game/src/test/java/demo/rockpaperscissorsgame/JPAUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/test/java/demo/rockpaperscissorsgame/JPAUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +72,11 @@
       <recent name="D:\Development\rock-paper-scissors-game" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\rock-paper-scissors-game\frontend\src\assets\hands\rock2" />
       <recent name="D:\Development\rock-paper-scissors-game\frontend\src\assets\hands" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerIntegrationTest.createAPlayer">
+  <component name="RunManager" selected="Spring Boot.RockPaperScissorsGameApplication">
     <configuration name="JPAUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rock-paper-scissors-game" />
       <extension name="coverage">
@@ -184,7 +188,7 @@
       <workItem from="1692736736396" duration="17979000" />
       <workItem from="1692785717405" duration="629000" />
       <workItem from="1692786931393" duration="16940000" />
-      <workItem from="1692822894966" duration="3532000" />
+      <workItem from="1692822894966" duration="5661000" />
     </task>
     <task id="LOCAL-00001" summary="init frontend">
       <option name="closed" value="true" />
@@ -306,7 +310,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692826148606</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="refactoring">
+      <option name="closed" value="true" />
+      <created>1692826893571</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692826893571</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refactoring">
+      <option name="closed" value="true" />
+      <created>1692827108503</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692827108503</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +359,8 @@
     <MESSAGE value="add player ranking page" />
     <MESSAGE value="add junit tests" />
     <MESSAGE value="add google analytics for website metrics" />
-    <option name="LAST_COMMIT_MESSAGE" value="add google analytics for website metrics" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
