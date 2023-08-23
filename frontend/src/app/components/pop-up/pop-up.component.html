@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Saving player</h1>
+<div mat-dialog-content>
+  <p>Would you like to save your scores? Please enter player's name:</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.playerName">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions align="end">
+  <button mat-button (click)="onNoClick()">No thanks</button>
+  <button mat-button [mat-dialog-close]="data.playerName" cdkFocusInitial>Save</button>
+</div>
