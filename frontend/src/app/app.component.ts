@@ -22,6 +22,16 @@ export class AppComponent {
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
 
+    this.router.events.subscribe(event => {
+      if (event instanceof  NavigationEnd) {
+        gtag('event', 'page_view', {
+          page_title: this.title,
+          page_path: event.urlAfterRedirects,
+          page_location: this.document.location.href
+        })
+      }
+    });
+
   }
 
 }
