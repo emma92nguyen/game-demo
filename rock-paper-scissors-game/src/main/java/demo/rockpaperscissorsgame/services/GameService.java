@@ -21,7 +21,7 @@ public class GameService {
         return Move.values()[new Random().nextInt(3)];
     }
 
-    private Result checkMatchResult(Move playerMove, Move houseMove) {
+    public Result checkMatchResult(Move playerMove, Move houseMove) {
         if (playerMove == houseMove) {
             return Result.TIE;
         }
