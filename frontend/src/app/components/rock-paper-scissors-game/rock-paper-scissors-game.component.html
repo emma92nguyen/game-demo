@@ -8,7 +8,7 @@
   </mat-grid-tile>
   <mat-grid-tile colspan="3" rowspan="1">
     <span>Choose a hand: </span>
-    <mat-tab-group selectedIndex="{{currentHandTabIndex}}" (selectedTabChange)="playerPickHand($event)">
+    <mat-tab-group selectedIndex="{{currentMoveTabIndex}}" (selectedTabChange)="playerPickMove($event)">
       <mat-tab>
         <ng-template mat-tab-label>
           <img src="{{paperImg}}" alt="paper" style="max-width: 40px;">
@@ -30,11 +30,11 @@
     </mat-tab-group>
   </mat-grid-tile>
   <mat-grid-tile colspan="3" rowspan="1">
-    <button *ngIf="currentHouseHand && currentHouseHand" (click)="resetScores()" mat-raised-button  color="primary"> Reset score</button>
+    <button *ngIf="currentMoveImg" (click)="resetScores()" mat-raised-button  color="primary"> Reset score</button>
   </mat-grid-tile>
   <mat-grid-tile colspan="6" rowspan="2"></mat-grid-tile>
   <mat-grid-tile colspan="3" rowspan="2">
-    <div class="score-board" *ngIf="currentHouseHand && currentHouseHand">
+    <div class="score-board" *ngIf="currentMoveImg">
       <div class="badge" id="user-label">player</div>
       <div class="badge" id="house-label">house</div>
       <span id="user-score">{{playerScore}}</span>:<span id="house-score">{{houseScore}}</span>
@@ -42,10 +42,10 @@
   </mat-grid-tile>
   <mat-grid-tile colspan="2" rowspan="6"></mat-grid-tile>
   <mat-grid-tile colspan="5" rowspan="6">
-    <mat-card class="game-card" *ngIf="currentHand && currentHouseHand">
+    <mat-card class="game-card" *ngIf="currentMoveImg">
       <mat-card-content>
-        <img mat-card-image src="{{currentHand}}" alt="playerMove" style="max-width: 300px; padding-right: 50px;">
-        <img mat-card-image src="{{currentHouseHand}}" alt="houseMove" style="max-width: 250px;">
+        <img mat-card-image src="{{currentMoveImg}}" alt="playerMove" style="max-width: 300px; padding-right: 50px;">
+        <img mat-card-image src="{{currentHouseMoveImg}}" alt="houseMove" style="max-width: 250px;">
       </mat-card-content>
       <mat-card-actions>
         <h3 style="margin-left: 100px;">PLAYER</h3>
@@ -58,11 +58,11 @@
   <mat-grid-tile colspan="2" rowspan="3"></mat-grid-tile>
   <mat-grid-tile colspan="5" rowspan="3">
     <ng-container *ngIf="!loading">
-      <h1 *ngIf="matchResult === 1">You win!!!</h1>
-      <h1 *ngIf="matchResult === 0">It's a tie</h1>
-      <h1 *ngIf="matchResult === -1">You lose :(</h1>
+      <h1 *ngIf="matchResult === Result.WIN">You win!!!</h1>
+      <h1 *ngIf="matchResult === Result.TIE">It's a tie</h1>
+      <h1 *ngIf="matchResult === Result.LOSS">You lose :(</h1>
     </ng-container>
-    <div class="flex-container flex-center" *ngIf="loading && currentHouseHand && currentHand">
+    <div class="flex-container flex-center" *ngIf="loading && currentMoveImg">
       <mat-spinner></mat-spinner>
     </div>
   </mat-grid-tile>
