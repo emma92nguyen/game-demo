@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="929abed3-741d-4c5f-a688-d5853f15a938" name="Changes" comment="refactoring">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/game-rules/game-rules.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/game-rules/game-rules.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/game-rules/game-rules.component.ts" afterDir="false" />
+    <list default="true" id="929abed3-741d-4c5f-a688-d5853f15a938" name="Changes" comment="move game logic to backend">
+      <change afterPath="$PROJECT_DIR$/rock-paper-scissors-game/src/test/java/demo/rockpaperscissorsgame/GameIntegrationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="TypeScript File" />
         <option value="Class" />
       </list>
@@ -76,7 +72,38 @@
       <recent name="D:\Development\rock-paper-scissors-game\frontend\src\assets\hands" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RockPaperScissorsGameApplication">
+  <component name="RunManager" selected="JUnit.RockPaperScissorsGameApplicationTests">
+    <configuration name="GameControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rock-paper-scissors-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.rockpaperscissorsgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
+      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.GameControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameIntegrationTests.shouldReturnHouseMoveAndMatchResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rock-paper-scissors-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.rockpaperscissorsgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
+      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.GameIntegrationTests" />
+      <option name="METHOD_NAME" value="shouldReturnHouseMoveAndMatchResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JPAUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rock-paper-scissors-game" />
       <extension name="coverage">
@@ -87,24 +114,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
       <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.JPAUnitTest" />
-      <option name="METHOD_NAME" value="should_return_empty_list_if_repository_is_empty" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JPAUnitTest.should_return_top_10_players_in_descending_order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rock-paper-scissors-game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.rockpaperscissorsgame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
-      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.JPAUnitTest" />
-      <option name="METHOD_NAME" value="should_return_top_10_players_in_descending_order" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,13 +129,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
       <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.PlayerControllerTests" />
-      <option name="METHOD_NAME" value="shouldCreatePlayer" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerControllerTests.shouldReturnListOfTop10PlayersInDescendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RockPaperScissorsGameApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rock-paper-scissors-game" />
       <extension name="coverage">
         <pattern>
@@ -134,25 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
-      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.PlayerControllerTests" />
-      <option name="METHOD_NAME" value="shouldReturnListOfTop10PlayersInDescendingOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerIntegrationTest.createAPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rock-paper-scissors-game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.rockpaperscissorsgame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.rockpaperscissorsgame" />
-      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.PlayerIntegrationTest" />
-      <option name="METHOD_NAME" value="createAPlayer" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="demo.rockpaperscissorsgame.RockPaperScissorsGameApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlayerIntegrationTest.createAPlayer" />
+        <item itemvalue="JUnit.RockPaperScissorsGameApplicationTests" />
         <item itemvalue="JUnit.PlayerControllerTests" />
         <item itemvalue="JUnit.JPAUnitTest" />
-        <item itemvalue="JUnit.JPAUnitTest.should_return_top_10_players_in_descending_order" />
-        <item itemvalue="JUnit.PlayerControllerTests.shouldReturnListOfTop10PlayersInDescendingOrder" />
+        <item itemvalue="JUnit.GameControllerTests" />
+        <item itemvalue="JUnit.GameIntegrationTests.shouldReturnHouseMoveAndMatchResult" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +180,9 @@
       <workItem from="1692736736396" duration="17979000" />
       <workItem from="1692785717405" duration="629000" />
       <workItem from="1692786931393" duration="16940000" />
-      <workItem from="1692822894966" duration="5661000" />
+      <workItem from="1692822894966" duration="6758000" />
+      <workItem from="1692861275970" duration="360000" />
+      <workItem from="1692893512748" duration="16217000" />
     </task>
     <task id="LOCAL-00001" summary="init frontend">
       <option name="closed" value="true" />
@@ -326,7 +320,87 @@
       <option name="project" value="LOCAL" />
       <updated>1692827108503</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add game rules page">
+      <option name="closed" value="true" />
+      <created>1692829775123</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692829775123</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add models for game logic">
+      <option name="closed" value="true" />
+      <created>1692948210643</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948210643</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add controller and service for game logic">
+      <option name="closed" value="true" />
+      <created>1692948238815</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948238815</updated>
+    </task>
+    <task id="LOCAL-00021" summary="handle conversion exception">
+      <option name="closed" value="true" />
+      <created>1692948278703</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948278703</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add game controller tests">
+      <option name="closed" value="true" />
+      <created>1692948447053</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948447053</updated>
+    </task>
+    <task id="LOCAL-00023" summary="refactoring">
+      <option name="closed" value="true" />
+      <created>1692948493775</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948493775</updated>
+    </task>
+    <task id="LOCAL-00024" summary="refactoring">
+      <option name="closed" value="true" />
+      <created>1692948614606</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948614606</updated>
+    </task>
+    <task id="LOCAL-00025" summary="move game logic to backend">
+      <option name="closed" value="true" />
+      <created>1692949275850</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1692949275850</updated>
+    </task>
+    <task id="LOCAL-00026" summary="move game logic to backend">
+      <option name="closed" value="true" />
+      <created>1692949490326</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1692949490326</updated>
+    </task>
+    <task id="LOCAL-00027" summary="move game logic to backend">
+      <option name="closed" value="true" />
+      <created>1692949926598</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1692949926598</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,8 +433,14 @@
     <MESSAGE value="add player ranking page" />
     <MESSAGE value="add junit tests" />
     <MESSAGE value="add google analytics for website metrics" />
+    <MESSAGE value="add game rules page" />
+    <MESSAGE value="add models for game logic" />
+    <MESSAGE value="add controller and service for game logic" />
+    <MESSAGE value="handle conversion exception" />
+    <MESSAGE value="add game controller tests" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="move game logic to backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="move game logic to backend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
